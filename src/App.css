@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.allNotes{
+  display:grid;
+  grid-template-columns: 1fr;
+  height:52vh;
+  overflow-y: auto;
+}
+.allNotes::-webkit-scrollbar{
+  display: none;
+}
